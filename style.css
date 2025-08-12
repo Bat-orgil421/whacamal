@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Jomhuria&display=swap");
+body {
+  background-color: rgba(175, 229, 127, 1);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0px;
+  cursor: url(./cursor_three.png), auto;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.whac {
+  font-family: "Anton", sans-serif;
+  font-size: 50px;
+}
+.scorebox {
+  font-family: "Anton", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  gap: 30px;
+}
+.score {
+  font-size: 100px;
+}
+.scoretext {
+  font-size: 100px;
+}
+.holeconcon {
+  display: flex;
+  justify-content: center;
+}
+.holecontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 820px;
+  height: 820px;
+  gap: 50px;
+  cursor: url(./cursor_three.png), auto;
+}
+.hole {
+  width: 225px;
+  height: 220px;
+  cursor: url(./cursor_three.png), auto;
+  position: relative;
+  background-image: url("./hole.png");
+  z-index: 2;
+  background-size: cover;
+}
+.mole {
+  background-image: url("./mole.png");
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  position: absolute;
+  top: 90px;
+  left: 60px;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  margin-top: 20px;
+}
+.start {
+  width: 200px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  background-color: rgba(2, 45, 17, 1);
+  color: white;
+  border-radius: 30px;
+}
+.time {
+  width: 270px;
+  height: 30px;
+  border-radius: 4px;
+  background-color: rgb(117, 174, 67);
+  font-family: "Anton", sans-serif;
+  font-size: 50px;
+}
+.timer {
+  width: 27px;
+  height: 30px;
+  border-radius: 4px;
+  background-color: rgba(29, 50, 8, 1);
+}
+.sec {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+}
+.con{
+  background-color: rgb(119, 255, 0);
+  width: 500px;
+  height: 500px;
+  border: 10px, solid, rgb(77, 134, 27);
+  border-radius: 20px;
+  text-align: center;
+  font-size: 100px;
+}
